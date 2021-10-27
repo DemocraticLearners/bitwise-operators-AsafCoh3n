@@ -1,8 +1,15 @@
 #Task One 
-CHECK if the n bit of num is set
+CHECK if the n bit of num is a one  
 #Template Code 
 
 #include <stdio.h>
+
+
+void YourFunction(int n, int num) {
+
+//your code 
+
+}
 
 int main()
 {
@@ -16,9 +23,7 @@ int main()
     printf("Enter nth bit to check (0-31): ");
     scanf("%d", &n);
 
-//YOUR CODE HERE 
-//CHECK if the n bit of num is set
-
+   YourFunction(int n, int num); 
 
     return 0;
 }
