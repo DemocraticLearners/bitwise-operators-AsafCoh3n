@@ -28,3 +28,52 @@ int main()
     return 0;
 }
 ---
+
+
+#Task Two
+#Write A function that prints the binary of an int
+example
+
+Input
+
+Input any number: 22
+Output
+
+Binary number: 00000000000000000000000000010110
+
+
+#Template Code 
+
+#include <stdio.h>
+
+
+void YourFunction(int n, int num) {
+
+//your code 
+
+}
+
+int main()
+{
+    int num, n;
+
+    /* Input number from user */
+    printf("Enter any number: ");
+    scanf("%d", &num);
+
+    /* Input bit position you want to check */
+    printf("Enter nth bit to check (0-31): ");
+    scanf("%d", &n);
+
+   YourFunction(int n, int num); 
+
+    return 0;
+}
+
+
+
+
+---
+
+
+
